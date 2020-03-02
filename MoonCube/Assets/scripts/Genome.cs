@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Genome : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public List<int> bits;
+public double fitness;
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+     
     void Update()
     {
-        
+        fitness = 0;
+	bits = new List<int> ();
     }
 }
